@@ -7,10 +7,11 @@ let Icon = require('./icon.jsx');
 let Progress = require('./progress.jsx');
 let worker = null;
 
-const ANIME_NOISE_WEAK_MODEL_PATH = '/models/anime_style_art_rgb/noise1_model.json';
-const ANIME_NOISE_STRONG_MODEL_PATH = '/models/anime_style_art_rgb/noise2_model.json';
-const ANIME_SCALE_2X_MODEL_PATH = '/models/anime_style_art_rgb/scale2.0x_model.json';
-const PHOTO_SCALE_2X_MODEL_PATH = '/models/ukbench/scale2.0x_model.json';
+const ROOT = location.pathname;
+const ANIME_NOISE_WEAK_MODEL_PATH = ROOT + 'models/anime_style_art_rgb/noise1_model.json';
+const ANIME_NOISE_STRONG_MODEL_PATH = ROOT + 'models/anime_style_art_rgb/noise2_model.json';
+const ANIME_SCALE_2X_MODEL_PATH = ROOT + 'models/anime_style_art_rgb/scale2.0x_model.json';
+const PHOTO_SCALE_2X_MODEL_PATH = ROOT + 'models/ukbench/scale2.0x_model.json';
 
 let Main = React.createClass({
     getInitialState() {

@@ -1,4 +1,4 @@
-importScripts('/js/waifu2x.js');
+importScripts(getJsPath() + '/waifu2x.js');
 
 var Waifu2x = self.Waifu2x;
 
@@ -29,3 +29,12 @@ self.onmessage = function(e) {
         });
     });
 };
+
+function getJsPath() {
+    var path = location.pathname.split('/');
+    if (path[0] === '') {
+        path.shift();
+    }
+    path.pop();
+    return '/' + path.join('/');
+}
