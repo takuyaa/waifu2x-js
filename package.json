@@ -1,0 +1,39 @@
+{
+  "name": "waifu2x-js",
+  "version": "0.0.1",
+  "author": "Takuya Asano <takuya.a@gmail.com>",
+  "description": "Image super-resolution using deep convolutional neural network (CNN)",
+  "keywords": [
+    "image processing",
+    "super resolution",
+    "cnn",
+    "convolutional neural network"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/takuyaa/waifu2x-js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/takuyaa/waifu2x-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/takuyaa/waifu2x-js/issues"
+  },
+  "scripts": {
+    "start": "gulp"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "babelify": "^6.1.2",
+    "browser-sync": "^1.8.1",
+    "browserify": "^7.0.3",
+    "gulp": "^3.8.10",
+    "gulp-notify": "^2.1.0",
+    "gulp-util": "^3.0.1",
+    "pretty-hrtime": "^0.2.2",
+    "require-dir": "^0.1.0",
+    "underscore": "^1.7.0",
+    "vinyl-source-stream": "^1.0.0",
+    "watchify": "^2.2.1"
+  }
+}
