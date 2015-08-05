@@ -7,6 +7,7 @@
   },
   "devDependencies": {
     "babelify": "^6.1.2",
+    "browser-sync": "^1.8.1",
     "browserify": "^7.0.3",
     "gulp": "^3.8.10",
     "require-dir": "^0.1.0",
