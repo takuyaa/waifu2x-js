@@ -18,16 +18,18 @@
   "bugs": {
     "url": "https://github.com/takuyaa/waifu2x-js/issues"
   },
+  "main": "./build/node/index.js",
   "scripts": {
-    "start": "gulp"
+    "start": "gulp",
+    "install": "gulp build"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "babelify": "^6.1.2",
     "browser-sync": "^1.8.1",
     "browserify": "^7.0.3",
     "gulp": "^3.8.10",
+    "gulp-babel": "^5.2.0",
     "gulp-notify": "^2.1.0",
     "gulp-util": "^3.0.1",
     "pretty-hrtime": "^0.2.2",
