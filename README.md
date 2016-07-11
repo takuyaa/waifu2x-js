@@ -1,5 +1,6 @@
 # waifu2x.js
 
+[![npm version](https://badge.fury.io/js/waifu2x-js.svg)](https://www.npmjs.com/package/waifu2x-js)
 [![License](https://img.shields.io/npm/l/waifu2x-js.svg)](https://github.com/takuyaa/waifu2x-js/blob/master/LICENSE)
 
 Image super-resolution using deep convolutional neural network (CNN).
